@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="general">
+        <div id="parte-izquierda">
+            <img src="images/Vector.png" alt="logo de alura" id="logo">
+            <textarea name="" id="text" cols="70" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <p id="requerimiento-texto"><img src="images/bi_exclamation-circle-fill.png" alt=""> Solo letras minusculas y sin acentos</p>
+            <div id="botones">
+                <input type="button" value="Encriptar" id="encriptar">
+                <input type="button" value="Desencriptar" id="desencriptar" onclick="boton_desencriptar()">
+            </div>
+        </div>
+    
+        <div id="parte-derecha">
+            <div id="resultado">
+                <img src="images/Muñeco.png" alt="" id="muneco">
+                <h3 id="mensaje-no-encontrado">Ningun mensage fue encontrado</h3>
+                <p id="ingresa-texto">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+            
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
